@@ -14,8 +14,9 @@ export class LoginComponent {
   password: string = '';
 
   onLogin() {
-    if (this.email === 'admin@example.com' && this.password === 'admin123') {
+    if (this.email === 'dharagohil@gmail.com' && this.password === 'dhara123') {
       alert('Login successful!');
+      console.log("Hello Dhara");
     } else {
       alert('Invalid credentials');
     }
