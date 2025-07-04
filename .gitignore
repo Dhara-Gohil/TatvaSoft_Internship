@@ -1,0 +1,65 @@
+# ---- NODE / ANGULAR ----
+node_modules/
+dist/
+.angular/
+tmp/
+temp/
+coverage/
+.env
+.env.*.local
+
+# VS Code & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- DOTNET (.NET Core / ASP.NET) ----
+**/bin/
+**/obj/
+**/publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Entity Framework files
+Migrations/
+
+# ---- POSTGRESQL & DB ----
+*.sql
+*.backup
+*.dump
+
+# ---- LOGS ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.pid
+
+# ---- TEST / TEMP ----
+test-output/
+coverage/
+.cache/
+*.tgz
+*.gz
+*.zip
+
+# ---- OS-SPECIFIC ----
+ehthumbs.db
+Desktop.ini
+*.swp
